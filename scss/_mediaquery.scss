@@ -1,0 +1,34 @@
+@media (max-width: 991px) {
+  header {
+    .header_grid {
+      .head_ar1 {
+        order: 2;
+      }
+      .head_ar2 {
+        order: 1;
+      }
+    }
+  }
+}
+
+@media (max-width: 600px) {
+  header {
+    .head_ar1 .az_col4 .social .icon {
+      padding: 2px;
+      width: 10px;
+      height: 10px;
+    }
+    .head_ar2 {
+      .az_icons {
+        .cartbtn {
+          padding: 0 3px !important;
+          line-height: 1;
+          .icon {
+            font-size: 10px;
+            padding: 0 0 2px 0;
+          }
+        }
+      }
+    }
+  }
+}

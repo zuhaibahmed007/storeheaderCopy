@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Layout | z7Store</title>
+    <!-- <link rel="icon" type="image/x-icon" href="./assets/images/favicon.png"> -->
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./assets/css/all.min.css" />
+    <link rel="stylesheet" href="./assets/css/slick.css" />
+    <link rel="stylesheet" href="./assets/css/slick-theme.css" />
+    <link rel="stylesheet" href="./assets/css/style.css?ver=1.0" />
+</head>
+
+<body>
+    <header class="rtl">
+        <!-- desktop header -->
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12 header_grid">
+                    <div class="head_ar1 px-md-3 pt-2 pt-md-3 d-flex justify-content-between">
+                        <div class="az_col1 d-none d-lg-block">
+                            <ul class="d-flex list-unstyled">
+                                <li class="ms-xl-5 ms-4">
+                                    <a href="#" class="nav_linkv1 dec_none t-dark">الرئيسية</a>
+                                </li>
+                                <li class="ms-xl-5 ms-4">
+                                    <a href="#" class="nav_linkv1 dec_none t-dark">من نحن</a>
+                                </li>
+                                <li class="ms-xl-5 ms-4">
+                                    <a href="#" class="nav_linkv1 dec_none t-dark">الشروط والاحكام</a>
+                                </li>
+                                <li class="ms-xl-5 ms-4">
+                                    <a href="#" class="nav_linkv1 dec_none t-dark">العروض الخاصة</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="az_col2">
+                            <small class="t-dark ms-2">تسجيل الدخول</small>
+                            <a href="#" class="dec_none py-1 px-4 br-8 sh_hover fs-14 t-white bg_primary">حساب جديد</a>
+                        </div>
+                        <div class="az_col3 d-none d-lg-block">
+                            <div class="cus_lang py-1 d-flex align-items-center ">
+                                <select class="form-select border-0 py-0 t_primary ms-2 fs-12">
+                                    <option selected>ر.ع</option>
+                                    <option value="2">Two</option>
+                                </select>
+                                <select class="form-select border-0 py-0 t_primary fs-12">
+                                    <option selected>العربية</option>
+                                    <option value="2">en</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="az_col4">
+                            <div class="social">
+                                <a href="#" class="dec_none fs-14 hover_pri ms-md-3 ms-1">
+                                    <i class="fa-brands fa-whatsapp t_primary icon"></i>
+                                </a>
+                                <a href="#" class="dec_none fs-14 hover_pri ms-md-3 ms-1">
+                                    <i class="fa-brands fa-twitter t_primary icon"></i>
+                                </a>
+                                <a href="#" class="dec_none fs-14 hover_pri ms-md-3 ms-1">
+                                    <i class="fa-brands fa-instagram t_primary icon"></i>
+                                </a>
+                                <a href="#" class="dec_none fs-14 hover_pri">
+                                    <i class="fa-brands fa-facebook-f t_primary icon"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="head_ar2 border-top border-bottom b-pri">
+                        <div class="row align-items-center">
+                            <div class="col-4">
+                                <div class="az_hambger d-lg-none">
+                                    <button class="az_toggle border-0 bg-transparent p-2">
+                                        <span></span>
+                                        <span></span>
+                                        <span></span>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="col-4 col-lg-4 az_col11">
+                                <div class="img_wrapper">
+                                    <img src="./assets/images/logo.png" class="img-fluid" alt=""
+                                        style="min-width: 120px;">
+                                </div>
+                            </div>
+                            <div class="col-4 col-lg-4 px-2">
+                                <div class="az_icons text-start ms-lg-5">
+                                    <button class="cartbtn b-pri border py-0 px-1 ms-lg-3 ms-2 rounded">
+                                        <i class="fa fa-magnifying-glass t_primary fs-16 icon"></i>
+                                    </button>
+                                    <button class="cartbtn b-pri border py-0 px-1 ms-lg-3 ms-2 rounded">
+                                        <i class="fa fa-heart t_primary fs-16 icon"></i>
+                                    </button>
+                                    <button class="cartbtn b-pri border py-0 px-1 ms-lg-3 ms-2 rounded">
+                                        <i class="fa fa-cart-shopping t_primary fs-16 icon"></i>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="head_ar3 d-none d-lg-block">
+                        <div class="az_menu">
+                            <ul class="d-flex flex-wrap az_menu_ul list-unstyled justify-content-around"
+                                style="max-width: 1400px;">
+                                <li class="list_item active p_relative azmega_menu">
+                                    <button class="bg-transparent tgle border-0 t-white" type="button" id="megadrop"
+                                        data-bs-toggle="dropdown" aria-expanded="false">
+                                        جميع الاقسام
+                                        <i class="fa fa-angle-down fs-10 me-1 icon"></i>
+                                    </button>
+                                    <ul class="dropdown-menu bg_primary" aria-labelledby="megadrop">
+                                        <li class="drop_li">
+                                            <a class="dec_none t-dark nav_link" href="#">الاقسام
+                                                <i class="fa fa-angle-left t-white fs-10 icon"></i>
+                                            </a>
+                                        </li>
+                                        <li class="drop_li dropstart">
+                                            <a class="dec_none t-dark nav_link no-drop" href="#"
+                                                data-bs-toggle="dropdown" aria-expanded="false"> الاقسام
+                                                <i class="fa fa-angle-left t-white fs-10 icon"></i>
+                                            </a>
+                                            <ul class="dropdown-menu nochAfter p_relative">
+                                                <div class="row">
+                                                    <div class="col-6 mb-3">
+                                                        <li>
+
+                                                            <a class="dec_none t-dark" href="#">منتوجات
+                                                                طبيعية</a>
+                                                        </li>
+                                                    </div>
+                                                    <div class="col-6 mb-3">
+                                                        <li>
+
+                                                            <a class="dec_none t-dark" href="#">منتوجات
+                                                                طبيعية</a>
+                                                        </li>
+                                                    </div>
+                                                    <div class="col-6 mb-3">
+                                                        <li>
+
+                                                            <a class="dec_none t-dark" href="#">منتوجات
+                                                                طبيعية</a>
+                                                        </li>
+                                                    </div>
+                                                    <div class="col-6 mb-3">
+                                                        <li>
+
+                                                            <a class="dec_none t-dark" href="#">منتوجات
+                                                                طبيعية</a>
+                                                        </li>
+                                                    </div>
+                                                    <div class="col-6 mb-3">
+                                                        <li>
+
+                                                            <a class="dec_none t-dark" href="#">منتوجات
+                                                                طبيعية</a>
+                                                        </li>
+                                                    </div>
+                                                    <div class="col-6 mb-3">
+                                                        <li>
+
+                                                            <a class="dec_none t-dark" href="#">منتوجات
+                                                                طبيعية</a>
+                                                        </li>
+                                                    </div>
+                                                </div>
+                                            </ul>
+                                        </li>
+                                        <li class="drop_li">
+                                            <a class="dec_none t-dark nav_link" href="#">الاقسام
+                                                <i class="fa fa-angle-left t-white fs-10 icon"></i>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="list_item">
+                                    <a href="#" class="dec_none t-dark nav_link fw-600">
+                                        المرأة
+                                        <i class="fa fa-angle-down fs-10 me-1 icon"></i>
+                                    </a>
+                                </li>
+                                <li class="list_item">
+                                    <a href="#" class="dec_none t-dark nav_link fw-600">
+                                        العطور
+                                        <i class="fa fa-angle-down fs-10 me-1 icon"></i>
+                                    </a>
+                                </li>
+                                <li class="list_item dropdown">
+                                    <a href="#" class="dec_none t-dark nav_link fw-600" id="drop4"
+                                        data-bs-toggle="dropdown" aria-expanded="false">
+                                        الاجهزة
+                                        <i class="fa fa-angle-down fs-10 me-1 icon"></i>
+                                    </a>
+                                    <ul class="dropdown-menu single_drop" aria-labelledby="drop4">
+                                        <div class="row">
+                                            <div class="col-6 mb-3">
+                                                <li class="text-end">
+
+                                                    <a class="dec_none t-dark" href="#">منتوجات
+                                                        طبيعية</a>
+                                                </li>
+                                            </div>
+                                            <div class="col-6 mb-3">
+                                                <li class="text-end">
+
+                                                    <a class="dec_none t-dark" href="#">منتوجات
+                                                        طبيعية</a>
+                                                </li>
+                                            </div>
+                                            <div class="col-6 mb-3">
+                                                <li class="text-end">
+
+                                                    <a class="dec_none t-dark" href="#">منتوجات
+                                                        طبيعية</a>
+                                                </li>
+                                            </div>
+                                            <div class="col-6 mb-3">
+                                                <li class="text-end">
+
+                                                    <a class="dec_none t-dark" href="#">منتوجات
+                                                        طبيعية</a>
+                                                </li>
+                                            </div>
+                                            <div class="col-6 mb-3">
+                                                <li class="text-end">
+
+                                                    <a class="dec_none t-dark" href="#">منتوجات
+                                                        طبيعية</a>
+                                                </li>
+                                            </div>
+                                            <div class="col-6 mb-3">
+                                                <li class="text-end">
+
+                                                    <a class="dec_none t-dark" href="#">منتوجات
+                                                        طبيعية</a>
+                                                </li>
+                                            </div>
+                                        </div>
+                                    </ul>
+                                </li>
+                                <li class="list_item">
+                                    <a href="#" class="dec_none t-dark nav_link fw-600">
+                                        العناية بالبشرة والوجه
+                                        <i class="fa fa-angle-down fs-10 me-1 icon"></i>
+                                    </a>
+                                </li>
+                                <li class="list_item">
+                                    <a href="#" class="dec_none t-dark nav_link fw-600">
+                                        المكياج
+                                        <i class="fa fa-angle-down fs-10 me-1 icon"></i>
+                                    </a>
+                                </li>
+                                <li class="list_item">
+                                    <a href="#" class="dec_none t-dark nav_link fw-600">
+                                        العناية بالجسم
+                                        <i class="fa fa-angle-down fs-10 me-1 icon"></i>
+                                    </a>
+                                </li>
+                                <li class="list_item">
+                                    <a href="#" class="dec_none t-dark nav_link fw-600">
+                                        مجموعات الهدايا
+                                        <i class="fa fa-angle-down fs-10 me-1 icon"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- aside -->
+        <aside class="aside d-lg-none">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="az_head">
+                            <div class="cus_lang py-1 d-flex align-items-center mx-auto">
+                                <select class="form-select border-0 bg_primary t-white ms-2 fs-12">
+                                    <option selected>ر.ع</option>
+                                    <option value="2">Two</option>
+                                </select>
+                                <select class="form-select border-0 bg_primary t-white fs-12">
+                                    <option selected>العربية</option>
+                                    <option value="2">en</option>
+                                </select>
+                            </div>
+                            <div class="az_grid mt-3">
+                                <ul class="list-unstyled grid_ul mx-md-5 mx-4">
+                                    <div class="row">
+                                        <div class="col-sm-8 col-6 mt-4">
+                                            <li class="item">
+                                                <a href="#" class="nav_linkv1 dec_none t-dark">الرئيسية</a>
+                                            </li>
+                                        </div>
+                                        <div class="col-sm-4 col-6 mt-4">
+                                            <li class="item">
+                                                <a href="#" class="nav_linkv1 dec_none t-dark">من نحن</a>
+                                            </li>
+                                        </div>
+                                        <div class="col-sm-8 col-6 mt-4">
+                                            <li class="item">
+                                                <a href="#" class="nav_linkv1 dec_none t-dark">الشروط والاحكام</a>
+                                            </li>
+                                        </div>
+                                        <div class="col-sm-4 col-6 mt-4">
+                                            <li class="item">
+                                                <a href="#" class="nav_linkv1 dec_none t-dark">العروض الخاصة</a>
+                                            </li>
+                                        </div>
+                                    </div>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 head_ar3">
+                        <div class="az_menu">
+                            <ul class="az_menu_ul list-unstyled" style="max-width: 1400px;">
+                                <li class="list_item active p_relative azmega_menu">
+                                    <button class="bg-transparent tgle border-0 t-white" type="button" id="megadrop"
+                                        data-bs-toggle="dropdown" aria-expanded="false">
+                                        جميع الاقسام
+                                        <i class="fa fa-angle-down fs-10 me-1 icon"></i>
+                                    </button>
+                                    <ul class="dropdown-menu bg_primary" aria-labelledby="megadrop">
+                                        <li class="drop_li">
+                                            <a class="dec_none t-dark nav_link" href="#">الاقسام
+                                                <i class="fa fa-angle-left t-white fs-10 icon"></i>
+                                            </a>
+                                        </li>
+                                        <li class="drop_li dropstart">
+                                            <a class="dec_none t-dark nav_link no-drop" href="#"
+                                                data-bs-toggle="dropdown" aria-expanded="false"> الاقسام
+                                                <i class="fa fa-angle-left t-white fs-10 icon"></i>
+                                            </a>
+                                            <ul class="dropdown-menu p_relative">
+                                                <div class="row">
+                                                    <div class="col-6 mb-3">
+                                                        <li>
+
+                                                            <a class="dec_none t-dark" href="#">منتوجات
+                                                                طبيعية</a>
+                                                        </li>
+                                                    </div>
+                                                    <div class="col-6 mb-3">
+                                                        <li>
+
+                                                            <a class="dec_none t-dark" href="#">منتوجات
+                                                                طبيعية</a>
+                                                        </li>
+                                                    </div>
+                                                    <div class="col-6 mb-3">
+                                                        <li>
+
+                                                            <a class="dec_none t-dark" href="#">منتوجات
+                                                                طبيعية</a>
+                                                        </li>
+                                                    </div>
+                                                    <div class="col-6 mb-3">
+                                                        <li>
+
+                                                            <a class="dec_none t-dark" href="#">منتوجات
+                                                                طبيعية</a>
+                                                        </li>
+                                                    </div>
+                                                    <div class="col-6 mb-3">
+                                                        <li>
+
+                                                            <a class="dec_none t-dark" href="#">منتوجات
+                                                                طبيعية</a>
+                                                        </li>
+                                                    </div>
+                                                    <div class="col-6 mb-3">
+                                                        <li>
+
+                                                            <a class="dec_none t-dark" href="#">منتوجات
+                                                                طبيعية</a>
+                                                        </li>
+                                                    </div>
+                                                </div>
+                                            </ul>
+                                        </li>
+                                        <li class="drop_li">
+                                            <a class="dec_none t-dark nav_link" href="#">الاقسام
+                                                <i class="fa fa-angle-left t-white fs-10 icon"></i>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="list_item">
+                                    <a href="#" class="dec_none t-dark nav_link fw-600">
+                                        المرأة
+                                        <i class="fa fa-angle-down fs-10 me-1 icon"></i>
+                                    </a>
+                                </li>
+                                <li class="list_item">
+                                    <a href="#" class="dec_none t-dark nav_link fw-600">
+                                        العطور
+                                        <i class="fa fa-angle-down fs-10 me-1 icon"></i>
+                                    </a>
+                                </li>
+                                <li class="list_item dropdown">
+                                    <a href="#" class="dec_none t-dark nav_link fw-600" id="drop4"
+                                        data-bs-toggle="dropdown" aria-expanded="false">
+                                        الاجهزة
+                                        <i class="fa fa-angle-down fs-10 me-1 icon"></i>
+                                    </a>
+                                    <ul class="dropdown-menu single_drop" aria-labelledby="drop4">
+                                        <div class="row">
+                                            <div class="col-6 mb-3">
+                                                <li class="text-end">
+
+                                                    <a class="dec_none t-dark" href="#">منتوجات
+                                                        طبيعية</a>
+                                                </li>
+                                            </div>
+                                            <div class="col-6 mb-3">
+                                                <li class="text-end">
+
+                                                    <a class="dec_none t-dark" href="#">منتوجات
+                                                        طبيعية</a>
+                                                </li>
+                                            </div>
+                                            <div class="col-6 mb-3">
+                                                <li class="text-end">
+
+                                                    <a class="dec_none t-dark" href="#">منتوجات
+                                                        طبيعية</a>
+                                                </li>
+                                            </div>
+                                            <div class="col-6 mb-3">
+                                                <li class="text-end">
+
+                                                    <a class="dec_none t-dark" href="#">منتوجات
+                                                        طبيعية</a>
+                                                </li>
+                                            </div>
+                                            <div class="col-6 mb-3">
+                                                <li class="text-end">
+
+                                                    <a class="dec_none t-dark" href="#">منتوجات
+                                                        طبيعية</a>
+                                                </li>
+                                            </div>
+                                            <div class="col-6 mb-3">
+                                                <li class="text-end">
+
+                                                    <a class="dec_none t-dark" href="#">منتوجات
+                                                        طبيعية</a>
+                                                </li>
+                                            </div>
+                                        </div>
+                                    </ul>
+                                </li>
+                                <li class="list_item">
+                                    <a href="#" class="dec_none t-dark nav_link fw-600">
+                                        العناية بالبشرة والوجه
+                                        <i class="fa fa-angle-down fs-10 me-1 icon"></i>
+                                    </a>
+                                </li>
+                                <li class="list_item">
+                                    <a href="#" class="dec_none t-dark nav_link fw-600">
+                                        المكياج
+                                        <i class="fa fa-angle-down fs-10 me-1 icon"></i>
+                                    </a>
+                                </li>
+                                <li class="list_item">
+                                    <a href="#" class="dec_none t-dark nav_link fw-600">
+                                        العناية بالجسم
+                                        <i class="fa fa-angle-down fs-10 me-1 icon"></i>
+                                    </a>
+                                </li>
+                                <li class="list_item">
+                                    <a href="#" class="dec_none t-dark nav_link fw-600">
+                                        مجموعات الهدايا
+                                        <i class="fa fa-angle-down fs-10 me-1 icon"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-12 mt-4">
+                        <div class="az_foo text-center ">
+                            <h2 class="t_primary fw-bold foo_h2">Z7STORES</h2>
+                            <p class="t_primary mb-sm-5 mb-4 foo_p">العناية / الجمال ✨ نقدم لكِ أفضل الحلول لإظهار جمالك
+                                بأقل
+                                تكلفة
+                                أصلية
+                                100٪
+                                ونوفر لك
+                                منتجات العناية والجمال والعطور والأجهزة</p>
+                            <div class="foo_content d-flex justify-content-center">
+                                <h5 class="t_primary ms-sm-4 ms-3 fs-14 fw-bold">تحتاج مساعدة ؟</h5>
+                                <h5 class="t_primary fw-light ltr fs-14"><i class="fa fa-phone"></i> +968 12345
+                                    6789</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </aside>
+        <!-- overlay -->
+        <div class="overlay"></div>
+    </header>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script type="text/javascript" src="./assets/js/bootstrap.bundle.min.js"></script>
+    <script type="text/javascript" src="./assets/js/slick.min.js"></script>
+    <script type="text/javascript" src="./assets/js/all.min.js"></script>
+    <script type="text/javascript" src="./assets/js/main.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,79 @@
+.ltr {
+  direction: ltr;
+}
+
+.rtl {
+  direction: rtl;
+}
+
+.fs-12 {
+  font-size: 12px;
+}
+
+.fs-14 {
+  font-size: 14px;
+}
+
+.fs-10 {
+  font-size: 10px;
+}
+
+.fs-16 {
+  font-size: 16px;
+}
+
+.fw-500 {
+  font-weight: 500;
+}
+
+.fw-600 {
+  font-weight: 600;
+}
+
+.w-80 {
+  width: 80%;
+}
+
+.dec_none {
+  text-decoration: none;
+}
+
+.sh_hover {
+  &:hover {
+    box-shadow: 5px 5px 10px #ccc;
+  }
+}
+
+.br-8 {
+  border-radius: 8px;
+}
+
+.br-10 {
+  border-radius: 10px;
+}
+
+.form-select:focus {
+  box-shadow: 0px 0px 4px $primary;
+}
+
+.hover_pri {
+  color: $primary;
+}
+
+.b-pri {
+  border-color: $primary;
+}
+
+.b-100 {
+  border-radius: 100%;
+}
+
+.p_relative {
+  position: relative;
+}
+
+a {
+  &:hover {
+    color: $primary
+  }
+}

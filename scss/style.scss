@@ -1,0 +1,62 @@
+@font-face {
+  font-family: 'Droid Arabic Kufi';
+  src: url("../fonts/DroidArabicKufi.eot");
+  src: url("../fonts/DroidArabicKufi-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/DroidArabicKufi-Bold.woff2") format("woff2"), url("../fonts/DroidArabicKufi-Bold.woff") format("woff"), url("../fonts/DroidArabicKufi-Bold.svg#DroidArabicKufi-Bold") format("svg");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Droid Arabic Kufi';
+  src: url("../fonts/DroidArabicKufi.eot");
+  src: url("../fonts/DroidArabicKufi.eot?#iefix") format("embedded-opentype"), url("../fonts/DroidArabicKufi.woff2") format("woff2"), url("../fonts/DroidArabicKufi.woff") format("woff"), url("../fonts/DroidArabicKufi.svg#DroidArabicKufi") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: normal;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  padding: 0;
+  margin: 0;
+}
+
+:root {
+  --primary: #691817;
+  --secondary: #F5F5F7;
+  --light: #595959;
+  --darkv1: #2f4858;
+  --darkv2: #233e50;
+  --darkv3: #163345;
+  --darkv4: #263238;
+}
+$primary: var(--primary);
+$secondary: var(--secondary);
+$light: var(--light);
+$darkv1: var(--darkv1);
+$darkv2: var(--darkv2);
+$darkv3: var(--darkv3);
+$darkv4: var(--darkv4);
+
+
+@import "./baseclasses";
+@import "./colors";
+@import "./header";
+@import "./footer";
+@import "./home";
+@import "./mediaquery";
