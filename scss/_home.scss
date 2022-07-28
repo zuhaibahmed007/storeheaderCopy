@@ -1,14 +1,14 @@
 .bg_pinkh {
-    background-color: #F9D9DB;
+  background-color: #f9d9db;
 }
 .bg_pistah {
-    background-color: #EEFFCC;
+  background-color: #eeffcc;
 }
 .bg_yelowish {
-    background-color: #FFEDCC;
+  background-color: #ffedcc;
 }
 .bg_greenish {
-    background-color: #E2F0E0;
+  background-color: #e2f0e0;
 }
 .azh_002 {
   .zv2_card {
@@ -21,8 +21,8 @@
       .left {
         span,
         a {
-            font-size: clamp(12px, 2vw, 18px);
-        } 
+          font-size: clamp(12px, 2vw, 18px);
+        }
       }
       .right {
         .img_wrapper {
@@ -34,48 +34,95 @@
 }
 
 .azh_003 {
-    .c00_head {
-        .slick_arr {
-            .icon {
-                color: #fff;
-                font-size: 25px;
-            }
-            .leftBtn,
-            .rightBtn {
-                border: 0;
-                background-color: $primary;
-                width: 40px;
-                height: 40px;
-                border-radius: 40px;
-                box-shadow: 0px 3px 6px #00000029;
-            }
-        }
+  .c00_head {
+    .slick_arr {
+      .icon {
+        color: #fff;
+        font-size: 25px;
+      }
+      .leftBtn,
+      .rightBtn {
+        border: 0;
+        background-color: $primary;
+        width: 40px;
+        height: 40px;
+        border-radius: 40px;
+        box-shadow: 0px 3px 6px #00000029;
+      }
     }
+  }
 }
 
 .azh_003 {
-    .zv3_card {
-        box-shadow: 0px 5px 15px #0000001C;
-        .c00_foo {
-            .f00Btn {
-                box-shadow: 0px 3px 6px #00000029;
-                &:hover,
-                &.active {
-                    color: #fff;
-                    background-color: $primary;
-                }
-            }
-            .fooicon {
-                box-shadow: 0px 3px 6px #00000029;
-                padding: 5px;
-                border-radius: 40px;
-                margin-right: 12px;
-                line-height: 2px;
-                &.active {
-                    color: #fff;
-                    background-color: #E52828;
-                }
-            }
+  .zv3_card {
+    box-shadow: 0px 5px 15px #0000001c;
+    .c00_foo {
+      .f00Btn {
+        box-shadow: 0px 3px 6px #00000029;
+        &:hover,
+        &.active {
+          color: #fff;
+          background-color: $primary;
         }
+      }
+      .fooicon {
+        box-shadow: 0px 3px 6px #00000029;
+        padding: 5px;
+        border-radius: 40px;
+        margin-right: 12px;
+        line-height: 2px;
+        &.active {
+          color: #fff;
+          background-color: #e52828;
+        }
+      }
     }
+  }
+}
+.azh_004 {
+  
+  .zv4_card {
+    box-shadow: 0px 10px 20px #00000029;
+    border-radius: 25px;
+    position: relative;
+    min-height: 180px;
+    margin: 4rem 1rem;
+    padding-top: 4rem ;
+    .img_wrapper {
+      width: 100px;
+      height: 100px;
+      border-radius: 100%;
+      background-color: #ccc;
+      overflow: hidden;
+      position: absolute;
+      top: 0px;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+  }
+}
+
+.azh_005 {
+  .input_group {
+    border: 1px solid;
+    padding: 12px;
+    background: #fff;
+    border-radius: 8px;
+    display: flex;
+    max-width: 700px;
+    margin: 0 auto;
+    .g_input {
+      color: #464348;
+      &::placeholder {
+        color: #464348;
+      }
+      &:focus {
+        outline: none;
+      }
+    }
+    .inputBTn {
+      min-width: 140px;
+      text-align: center;
+    }
+  }
 }

@@ -37,10 +37,10 @@
   width: 80%;
 }
 .not-checked {
-  color: #D6D3CF;
+  color: #d6d3cf;
 }
 .checked {
-  color: #FD9A1C;
+  color: #fd9a1c;
 }
 .dec_none {
   text-decoration: none;
@@ -114,5 +114,16 @@ a {
       color: $primary;
       font-weight: bold;
     }
+  }
+}
+
+.afterv1 {
+  &::after {
+    content: "";
+    border: 1px solid $primary;
+    display: block;
+    width: 64px;
+    text-align: center;
+    margin: 0 auto;
   }
 }

@@ -10,23 +10,7 @@
     }
   }
 }
-@media (max-width: 767px) {
-  // HOME
-//   .azh_002 {
-//     .zv2_card {
-//       .head {
-//         .t-dark {
-//           font-size: 15px;
-//         }
-//       }
-//       .z_content {
-//         .right {
-        
-//         }
-//       }
-//     }
-//   }
-}
+
 @media (max-width: 600px) {
   header {
     .head_ar1 .az_col4 .social .icon {
@@ -46,6 +30,9 @@
         }
       }
     }
+  }
+  .azh_005 .input_group .inputBTn {
+    min-width: 100px;
   }
 }
 // Min width

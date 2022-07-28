@@ -88,11 +88,11 @@ p {
 }
 
 .not-checked {
-  color: #D6D3CF;
+  color: #d6d3cf;
 }
 
 .checked {
-  color: #FD9A1C;
+  color: #fd9a1c;
 }
 
 .dec_none {
@@ -167,6 +167,15 @@ a:hover {
 .cus_counter .content .cus_small {
   color: var(--primary);
   font-weight: bold;
+}
+
+.afterv1::after {
+  content: "";
+  border: 1px solid var(--primary);
+  display: block;
+  width: 64px;
+  text-align: center;
+  margin: 0 auto;
 }
 
 .t_primary {
@@ -516,19 +525,19 @@ header .aside .head_ar3 .list_item .single_drop::after {
 }
 
 .bg_pinkh {
-  background-color: #F9D9DB;
+  background-color: #f9d9db;
 }
 
 .bg_pistah {
-  background-color: #EEFFCC;
+  background-color: #eeffcc;
 }
 
 .bg_yelowish {
-  background-color: #FFEDCC;
+  background-color: #ffedcc;
 }
 
 .bg_greenish {
-  background-color: #E2F0E0;
+  background-color: #e2f0e0;
 }
 
 .azh_002 .zv2_card .head h3 {
@@ -561,8 +570,8 @@ header .aside .head_ar3 .list_item .single_drop::after {
 }
 
 .azh_003 .zv3_card {
-  -webkit-box-shadow: 0px 5px 15px #0000001C;
-          box-shadow: 0px 5px 15px #0000001C;
+  -webkit-box-shadow: 0px 5px 15px #0000001c;
+          box-shadow: 0px 5px 15px #0000001c;
 }
 
 .azh_003 .zv3_card .c00_foo .f00Btn {
@@ -586,7 +595,71 @@ header .aside .head_ar3 .list_item .single_drop::after {
 
 .azh_003 .zv3_card .c00_foo .fooicon.active {
   color: #fff;
-  background-color: #E52828;
+  background-color: #e52828;
+}
+
+.azh_004 .zv4_card {
+  -webkit-box-shadow: 0px 10px 20px #00000029;
+          box-shadow: 0px 10px 20px #00000029;
+  border-radius: 25px;
+  position: relative;
+  min-height: 180px;
+  margin: 4rem 1rem;
+  padding-top: 4rem;
+}
+
+.azh_004 .zv4_card .img_wrapper {
+  width: 100px;
+  height: 100px;
+  border-radius: 100%;
+  background-color: #ccc;
+  overflow: hidden;
+  position: absolute;
+  top: 0px;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.azh_005 .input_group {
+  border: 1px solid;
+  padding: 12px;
+  background: #fff;
+  border-radius: 8px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.azh_005 .input_group .g_input {
+  color: #464348;
+}
+
+.azh_005 .input_group .g_input::-webkit-input-placeholder {
+  color: #464348;
+}
+
+.azh_005 .input_group .g_input:-ms-input-placeholder {
+  color: #464348;
+}
+
+.azh_005 .input_group .g_input::-ms-input-placeholder {
+  color: #464348;
+}
+
+.azh_005 .input_group .g_input::placeholder {
+  color: #464348;
+}
+
+.azh_005 .input_group .g_input:focus {
+  outline: none;
+}
+
+.azh_005 .input_group .inputBTn {
+  min-width: 140px;
+  text-align: center;
 }
 
 @media (max-width: 991px) {
@@ -615,6 +688,9 @@ header .aside .head_ar3 .list_item .single_drop::after {
   header .head_ar2 .az_icons .cartbtn .icon {
     font-size: 10px;
     padding: 0 0 2px 0;
+  }
+  .azh_005 .input_group .inputBTn {
+    min-width: 100px;
   }
 }
 
