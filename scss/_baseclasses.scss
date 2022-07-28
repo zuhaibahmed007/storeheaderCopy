@@ -21,6 +21,9 @@
 .fs-16 {
   font-size: 16px;
 }
+.fs_36 {
+  font-size: 36px;
+}
 
 .fw-500 {
   font-weight: 500;
@@ -33,7 +36,12 @@
 .w-80 {
   width: 80%;
 }
-
+.not-checked {
+  color: #D6D3CF;
+}
+.checked {
+  color: #FD9A1C;
+}
 .dec_none {
   text-decoration: none;
 }
@@ -50,6 +58,10 @@
 
 .br-10 {
   border-radius: 10px;
+}
+
+.br-16 {
+  border-radius: 16px;
 }
 
 .form-select:focus {
@@ -74,6 +86,33 @@
 
 a {
   &:hover {
-    color: $primary
+    color: $primary;
+  }
+}
+
+.btn_fs {
+  font-size: clamp(20px, 1.1vw, 28px);
+}
+
+.cus_counter {
+  .content {
+    text-align: center;
+    .count_span {
+      font-size: 12px;
+      border: 1px solid $primary;
+      background-color: $primary;
+      color: #fff;
+      border-radius: 40px;
+      width: 30px;
+      height: 30px;
+      text-align: center;
+      line-height: 2.5;
+      box-shadow: 0px 3px 6px #00000029;
+      margin-bottom: 5px;
+    }
+    .cus_small {
+      color: $primary;
+      font-weight: bold;
+    }
   }
 }

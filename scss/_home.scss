@@ -1,0 +1,81 @@
+.bg_pinkh {
+    background-color: #F9D9DB;
+}
+.bg_pistah {
+    background-color: #EEFFCC;
+}
+.bg_yelowish {
+    background-color: #FFEDCC;
+}
+.bg_greenish {
+    background-color: #E2F0E0;
+}
+.azh_002 {
+  .zv2_card {
+    .head {
+      h3 {
+        font-size: clamp(18px, 2vw, 30px);
+      }
+    }
+    .z_content {
+      .left {
+        span,
+        a {
+            font-size: clamp(12px, 2vw, 18px);
+        } 
+      }
+      .right {
+        .img_wrapper {
+          min-width: 80px;
+        }
+      }
+    }
+  }
+}
+
+.azh_003 {
+    .c00_head {
+        .slick_arr {
+            .icon {
+                color: #fff;
+                font-size: 25px;
+            }
+            .leftBtn,
+            .rightBtn {
+                border: 0;
+                background-color: $primary;
+                width: 40px;
+                height: 40px;
+                border-radius: 40px;
+                box-shadow: 0px 3px 6px #00000029;
+            }
+        }
+    }
+}
+
+.azh_003 {
+    .zv3_card {
+        box-shadow: 0px 5px 15px #0000001C;
+        .c00_foo {
+            .f00Btn {
+                box-shadow: 0px 3px 6px #00000029;
+                &:hover,
+                &.active {
+                    color: #fff;
+                    background-color: $primary;
+                }
+            }
+            .fooicon {
+                box-shadow: 0px 3px 6px #00000029;
+                padding: 5px;
+                border-radius: 40px;
+                margin-right: 12px;
+                line-height: 2px;
+                &.active {
+                    color: #fff;
+                    background-color: #E52828;
+                }
+            }
+        }
+    }
+}

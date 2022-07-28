@@ -68,6 +68,7 @@ header {
       }
     }
   }
+
   .head_ar3 {
     .az_menu {
       .list_item {
@@ -164,7 +165,9 @@ header {
       }
     }
   }
-
+  .nav_fs {
+    font-size: clamp(15px, 1.1vw, 28px);
+  }
   // ASide
   .overlay {
     position: fixed;
